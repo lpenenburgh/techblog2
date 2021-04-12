@@ -1,0 +1,45 @@
+{
+  "name": "techblog2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpenenburgh/techblog2.git"
+  },
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "techblog_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpenenburgh/techblog2/issues"
+  },
+  "homepage": "https://github.com/lpenenburgh/techblog2#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "controllers": "0.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "util-helpers": "^3.9.1"
+  }
+}
