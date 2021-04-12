@@ -20,7 +20,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "JAWSDB_URL",
+    "use_env_variable": "mysql://i1apb0xg1izvtlcm:z01s1mhid6ewn7zs@xlf3ljx3beaucz9x.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/w5mub684r78ahqar",
     "dialect": "mysql"
   },
   "keywords": [],
@@ -38,6 +38,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.0",
     "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.2",
     "util-helpers": "^3.9.1"
